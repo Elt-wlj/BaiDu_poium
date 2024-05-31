@@ -14,8 +14,6 @@
 | class |class_name="class" | "class=class" |
 | link_text    |link_text="文字链接" | "text=文字链接" |
 | xpath   |xpath="//*[@id='11']" | "//*[@id='11']" |
-| id    |id_="id" | "id=id" |
-| id    |id_="id" | "id=id" |
 
 - 详细使用说明：https://github.com/SeldomQA/poium/tree/master/sample/selenium_sample
 
