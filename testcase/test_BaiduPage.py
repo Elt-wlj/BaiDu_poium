@@ -1,8 +1,9 @@
-import pytest, time
+import pytest, time, allure
 from page.baidupage import BaiduPage
 
 
 class TestSearch():
+    @allure.feature("搜索功能")
     def test_baidupage(self, browser, base_url):
         page = BaiduPage(browser)
         page.open(base_url)
